@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+    background-color: black;
+    color:white;
+} */
+
+@layer components {
+  .checkbox-label:has(input:checked) {
+    @apply font-bold text-black;
+  }
+}
